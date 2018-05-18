@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.topbar{
+    height: 75px;
+    width: 100%;
+    background-color: #519872;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-left{
+    height:100%;
+    width: 21%;
+}
+
+.nav-center{
+    display: flex;
+    height: 100%;
+    width:54%;
+    align-items: center;
+}
+
+.nav-right{
+    height:100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-title{
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    color: white;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.nav-logout{
+    color:white;
+    margin-left: 50px;
+}
+
+.nav-logo{
+    height:100%;
+    width: 100%;
+}

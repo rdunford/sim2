@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.login{
+    height: 100vh;
+    width:100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    
+}
+a:vis{
+    text-decoration: none;
+
+}
+.login-left{
+    height: 100%;
+    width: 20%;
+    background-color: #AFD4C0;
+}
+
+.login-content{
+    height: 100%;
+    width: 60%;
+}
+
+.content-top{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.login-logo{
+    height: 250px;
+    width: 190px;
+    background-image: url('../../assets/auth_logo.png');
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    margin-left:10px;
+}
+
+
+.content-bottom{
+    height: 50vh;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-header{
+    height:25px;
+    width: 105px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-left:160px;
+    margin-bottom: 3px;
+}
+
+.login-input{
+    height: 30px;
+    width: 600px;
+    border: 1px solid #3b5249;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: start;
+}
+
+.login-right{
+    height: 100%;
+    width: 20%;
+    background-color: #AFD4C0;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    margin-left: 270px;
+    justify-content: space-between;
+}
+
+.login-btn{
+    height: 100%;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8aea92;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color:black;
+}
+.register-btn{
+    height: 100%;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b5249;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.login-btn, .register-btn:hover{
+    cursor: pointer;
+}
